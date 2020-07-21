@@ -102,7 +102,7 @@ function initializeCobraToolboxLib()
     currentDir = pwd;
 
     % define the root path of The COBRA Toolbox and change to it.
-    CBTDIR = fileparts(which('initCobra306'));
+    CBTDIR = fileparts(which('initializeCobraToolboxLib.m'));
     cd(CBTDIR);
 
     % add the external install folder
